@@ -1,6 +1,3 @@
-from ast import While
-from os import remove
-import this
 import bank
 
 my_bank = bank.Bank()
@@ -11,6 +8,7 @@ my_bank.add_account("19880821")
 my_bank.add_account("19880821")
 my_bank.add_account("19810418")
 my_bank.add_account("19810418")
+
 while True:
     print()
     print("Welsome to YanaBank!")
